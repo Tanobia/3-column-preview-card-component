@@ -1,0 +1,131 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    padding-left: 5%;
+    padding-right: 2em;
+    padding-top: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    padding-left: 5%;
+    padding-right: 2em;
+    padding-top: 5%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    padding-left: 5%;
+    padding-right: 2em;
+    padding-top: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    background-color: hsl(179, 100%, 13%);
+
+
+}
+
+button {
+    border-radius: 2em;
+    padding-right: 5em;
+    margin-bottom: 20%;
+    margin-top: 30%;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.learn1 {
+    position: relative;
+    left: 50%;
+    color: hsl(31, 77%, 52%);
+}
+
+.learn2 {
+    position: relative;
+    left: 50%;
+    color: hsl(184, 100%, 22%);
+}
+
+
+.learn3 {
+    position: relative;
+    left: 50%;
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+
+    .card {
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .luxury {
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        padding-top: 13%;
+        padding-left: 20%;
+        padding-right: 13%;
+    }
+
+    .suv {
+        padding-top: 13%;
+        padding-left: 20%;
+        padding-right: 2em;
+    }
+
+
+    .sedans {
+        border-bottom-left-radius: 0%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        padding-top: 13%;
+        padding-left: 20%;
+
+    }
+
+    button {
+        margin-top: 5%;
+
+    }
+}
